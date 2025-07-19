@@ -1,0 +1,75 @@
+/* Custom styling for LLM Security Guide */
+
+:root {
+    --content-max-width: 900px;
+    --chapter-line-height: 1.7;
+}
+
+.content {
+    max-width: var(--content-max-width);
+    line-height: var(--chapter-line-height);
+}
+
+/* Improve code block styling */
+.hljs {
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+/* Style for warning/info boxes */
+blockquote {
+    border-left: 4px solid #f39c12;
+    background-color: #fdf6e3;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+/* Security-themed accent colors */
+.nav-chapters .nav-chapter.active {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.nav-chapters .nav-chapter.active > a {
+    color: white;
+}
+
+/* Improve table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Chapter titles styling */
+h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #e74c3c;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 2rem;
+}
+
+/* Code inline styling */
+code {
+    background-color: #f8f9fa;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}

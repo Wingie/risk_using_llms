@@ -1,0 +1,6 @@
+book/
+target/
+.DS_Store
+*.swp
+*.swo
+*~
