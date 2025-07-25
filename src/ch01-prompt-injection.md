@@ -15,7 +15,9 @@ The travel industry's rapid adoption of conversational AI represents a fundament
 
 Within seconds, the AI processes this request, checks availability, applies your frequent flyer benefits, and presents options tailored to your preferences. This seamless experience has driven widespread adoption: by 2024, over 67% of online travel agencies had deployed some form of conversational AI.
 
-Yet this convenience comes with a hidden cost. The same natural language processing capabilities that make these systems so user-friendly also create an unprecedented attack surface. Unlike traditional web applications where attackers exploit parsing errors or injection flaws, prompt injection attacks leverage the AI's core strength—its ability to understand and follow natural language instructions—against itself.
+Yet this convenience comes with a hidden cost. The same natural language processing capabilities that make these systems so user-friendly also create an unprecedented attack surface. 
+
+Unlike traditional web applications where attackers exploit parsing errors or injection flaws, prompt injection attacks leverage the AI's core strength—its ability to understand and follow natural language instructions—against itself.
 
 ### The Security Paradigm Shift
 
@@ -38,9 +40,13 @@ Prompt injection exploits this fundamental characteristic of Large Language Mode
 
 ### Why Prompt Injection Matters Now
 
-The Open Web Application Security Project (OWASP) has ranked prompt injection as the number one vulnerability in their 2024 Top 10 for Large Language Model Applications—a position it has held since the list's inception. This isn't merely an academic concern: real-world incidents throughout 2024 have demonstrated the practical impact of these attacks.
+The Open Web Application Security Project (OWASP) has ranked prompt injection as the number one vulnerability in their 2024 Top 10 for Large Language Model Applications—a position it has held since the list's inception. 
 
-In one documented case, researchers successfully extracted users' personal information from ChatGPT by embedding malicious instructions within seemingly innocuous conversation starters. Another incident involved attackers manipulating a financial institution's customer service chatbot to reveal account details by crafting requests that appeared to be legitimate troubleshooting queries.
+This isn't merely an academic concern: real-world incidents throughout 2024 have demonstrated the practical impact of these attacks.
+
+In one documented case, researchers successfully extracted users' personal information from ChatGPT by embedding malicious instructions within seemingly innocuous conversation starters. 
+
+Another incident involved attackers manipulating a financial institution's customer service chatbot to reveal account details by crafting requests that appeared to be legitimate troubleshooting queries.
 
 What makes prompt injection particularly dangerous is its accessibility. Unlike buffer overflows or race conditions that require deep technical knowledge, prompt injection can be executed by anyone capable of crafting persuasive text. The barrier to entry is minimal, while the potential impact—data theft, financial fraud, system compromise—remains severe.
 
